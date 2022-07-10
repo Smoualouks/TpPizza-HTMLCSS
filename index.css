@@ -1,0 +1,207 @@
+body {
+  background-color: #f6ecec;
+  display: flex;
+  flex-direction: column;
+}
+/* syle appliqué au logo en haut à gauche  */
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+/* style applique à toute la page */
+.page {
+  margin: 8rem;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 3rem;
+  z-index: 7;
+}
+/* style appliqué sur le button sign in */
+.SIGN {
+  border: none;
+  margin-top: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px 11px;
+  gap: 10px;
+  width: 100px;
+  height: 30px;
+  background: #ec0000;
+  border-radius: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+/* style pour recherche et chariot de course */
+header i {
+  width: 10px;
+  height: 10px;
+  margin-top: 20px;
+}
+/* style appliqué à la liste des menu de header */
+header ul {
+  display: flex;
+  list-style: none;
+  margin-left: 200px;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+#main {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+  display: inline-block;
+}
+
+.w-50 h1 {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  font-weight: bold;
+}
+.w-50 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 58px;
+}
+.w-50 button {
+  border: none;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px 11px;
+  gap: 10px;
+  width: 182px;
+  height: 50px;
+  background: #ec0000;
+  box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+  border-radius: 25px;
+}
+.w1 {
+  position: relative;
+  display: inline-block;
+}
+.w1::after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+  margin-right: 50%;
+}
+.w-100 {
+  width: 100%;
+  display: block;
+}
+h2 {
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+/* style appliqué au conteneur des elements en bas de la page */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+/* style appliqué aux trois partie affichant le choix des menus */
+.pizza {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #bdbdbd;
+  border-radius: 180px 180px 30px 30px;
+}
+/* style appliqué au button order by */
+.button1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px 11px;
+  gap: 10px;
+  width: 182px;
+  height: 50px;
+  background: #ec0000;
+  box-shadow: -10px 20px 40px rgba(236, 0, 0, 0.16);
+  border-radius: 25px;
+} /* style appliqué au bottons menu en bas de la page */
+.button2 {
+  margin-top: 10px;
+  border: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px 11px;
+  width: 243px;
+  height: 40px;
+  background: #ec0000;
+  border-radius: 25px;
+}
+/* style appliqué au prix des pizzas */
+.prix {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  align-items: center;
+  color: #05a84b;
+}
+/* style appliqué aux selction pour le choix des pizas */
+#monselect {
+  align-items: center;
+  padding: 9px 16px;
+  width: 243px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #4f4f4f;
+  border-radius: 25px;
+}
+/* style appliqué au paragraphe en bas de la page */
+.pizza .paragraphe {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: gray;
+}
+.foot {
+  margin-left: 40%;
+}
+.line {
+  width: 0px;
+  height: 42px;
+  border: 0.5px solid #2f3aa9;
+}
+footer {
+  display: flex;
+  bottom: 4.18%;
+}
+.images {
+  position: absolute;
+  width: 132px;
+  height: 129.84px;
+  top: 1200px;
+  left: 66px;
+  background: url(images/margherita-pizza1.png);
+  transform: rotate(-90deg);
+}
